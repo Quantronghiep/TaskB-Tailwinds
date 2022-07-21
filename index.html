@@ -1,0 +1,744 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+        integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- <script src="https://cdn.tailwindcss.com"></script> -->
+    <script src="https://cdn.tailwindcss.com?plugins=forms,typography,aspect-ratio,line-clamp"></script>
+
+    <title>Task B</title>
+</head>
+
+<body>
+    <div class="app  mt-2 mx-4 lg:mx-20">
+        <div class="header py-4 lg:py-0">
+            <div class=" flex justify-between lg:border-b-2 lg:border-slate-200 pb-1 ">
+                <div class="flex items-center relative text-2xl lg:text-lg text-gray-300 lg:text-black">
+                    <i class="fa-solid fa-bars dropbtn " onclick="myFunction()"></i>
+                    <div class="ml-2 hidden lg:block">SECTIONS</div>
+                    <div id="myDropdown" class="dropdown-content absolute hidden overflow-auto z-10 top-10">
+                        <a href="#home"
+                            class="block bg-gray-300 px-8 py-4 border-b-2 border-red-100 h-16 min-h-full w-64 min-w-full">Home
+                            fsdgdsf gdsgdsgsd</a>
+                        <a href="#home"
+                            class="block bg-gray-300 px-8 py-4 border-b-2 border-red-100 h-16 min-h-full w-64 min-w-full">Home
+                            fsdgdsf gdsgdsgsd</a>
+                        <a href="#home"
+                            class="block bg-gray-300 px-8 py-4 border-b-2 border-red-100 h-16 min-h-full w-64 min-w-full">Home
+                            fsdgdsf gdsgdsgsd</a>
+                        <a href="#home"
+                            class="block bg-gray-300 px-8 py-4 border-b-2 border-red-100 h-16 min-h-full w-64 min-w-full">Home
+                            fsdgdsf gdsgdsgsd</a>
+
+                    </div>
+                </div>
+                <div class="text-gray-500 leading-8 hidden lg:block">Friday, February 24, 2017</div>
+                <h1 class="font-black text-4xl text-center font-serif lg:hidden">The News</h1>
+
+                <div class="flex justify-between text-2xl lg:text-lg ">
+                    <div class="flex items-center lg:mr-10 text-gray-300 lg:text-black">
+                        <i class="fa-solid fa-magnifying-glass"></i>
+                        <div class="ml-2 hidden lg:block">SEARCH</div>
+                    </div>
+                    <button class="rounded bg-gray-300 lg:py-2 lg:px-8 hidden lg:block">Login</button>
+                </div>
+            </div>
+
+            <h1
+                class="font-black text-8xl text-center font-serif mt-8 border-b-2 border-slate-200 pb-9 hidden lg:block">
+                The News</h1>
+        </div>
+
+        <div class="app_container lg:pb-20 lg:border-b-2 border-gray-200 ">
+            <div class="lg:flex items-center mt-4  border-b-2 border-slate-200 pb-4 hidden">
+                <ul class="flex mx-auto font-sans text-lg">
+                    <li class="ml-10 hover:text-blue-700">
+                        <a href="">World</a>
+                    </li>
+                    <li class="ml-10 hover:text-blue-700">
+                        <a href="">Polictics</a>
+                    </li>
+                    <li class="ml-10 hover:text-blue-700">
+                        <a href="">Business</a>
+                    </li>
+                    <li class="ml-10 hover:text-blue-700">
+                        <a href="">Opinion</a>
+                    </li>
+                    <li class="ml-10 hover:text-blue-700">
+                        <a href="">Tech</a>
+                    </li>
+                    <li class="ml-10 hover:text-blue-700">
+                        <a href="">Science</a>
+                    </li>
+                    <li class="ml-10 hover:text-blue-700">
+                        <a href="">Health</a>
+                    </li>
+                    <li class="ml-10 hover:text-blue-700">
+                        <a href="">Sports</a>
+                    </li>
+                    <li class="ml-10 hover:text-blue-700">
+                        <a href="">Entertaiment</a>
+                    </li>
+                    <li class="ml-10 hover:text-blue-700">
+                        <a href="">Travel</a>
+                    </li>
+                    <li class="ml-10 hover:text-blue-700">
+                        <a href="">More</a>
+                    </li>
+
+                </ul>
+                <div class="flex text-blue-700">
+                    <i class="fa-solid fa-newspaper mr-2 leading-6"></i>
+                    <div class="ml-2">E-PAPER</div>
+                </div>
+            </div>
+
+            <div class="lg:grid lg:grid-cols-4 lg:gap-10 lg:mt-8">
+                <div class="lg:col-span-3 lg:grid lg:grid-cols-3 lg:gap-10 border-b-2 border-gray-200 pb-5 ">
+                    <div class="col-span-2 bg-cover bg-no-repeat bg-center h-48 lg:h-96 w-full relative -mx-4 lg:mx-0"
+                        style="background-image: url(./assets/images/trieutien.png) ;">
+                        <div
+                            class="text-black absolute -bottom-4 left-5 bg-white lg:text-4xl text-lg font-serif lg:pl-10 pl-3 font-semibold pr-3 w-4/5">
+                            What One Photo Tells Us About North Korea’s Nuclear Program
+                        </div>
+                        <p class="text-lg text-slate-800 absolute -bottom-28 left-0 pl-5 hidden lg:block">
+                            Clues from a propaganda photo reveal details about North Korea’s expanding weapons programs
+                            and
+                            internal politics.
+                        </p>
+                    </div>
+                    <div class="">
+                        <div class="flex justify-between mt-8 lg:mt-0 text-center">
+                            <div>
+                                <p class="bg-[#fbff22] p-1 inline-block lg:text-xl  text-base">TOP STORIES</p>
+                            </div>
+                            <div class="text-blue-600 mt-1 lg:hidden">View all</div>
+                        </div>
+
+
+                        <div class="">
+                            <div
+                                class="mt-2 lg:pb-1 p-1 font-serif text-lg border-b-2 border-gray-200 line-clamp-1 lg:line-clamp-none ">
+                                PM unveils
+                                Shiva statue in
+                                Coimbatore on Mahashivratri
+                            </div>
+                            <div
+                                class="mt-1 lg:pb-1 p-1 font-serif text-lg border-b-2 border-gray-200  line-clamp-1 lg:line-clamp-none ">
+                                PM unveils
+                                Shiva statue in
+                                Coimbatore on Mahashivratri
+                            </div>
+                            <div
+                                class="mt-1 lg:pb-1 p-1 font-serif text-lg border-b-2 border-gray-200  line-clamp-1 lg:line-clamp-none ">
+                                PM unveils
+                                Shiva statue in
+                                Coimbatore on Mahashivratri
+                            </div>
+                            <div
+                                class="mt-1 lg:pb-1 p-1 font-serif text-lg lg:border-b-2 lg:border-gray-200  line-clamp-1 lg:line-clamp-none ">
+                                PM
+                                unveils Shiva statue in
+                                Coimbatore on Mahashivratri
+                            </div>
+                            <div
+                                class="mt-1 lg:pb-1 p-1 font-serif text-lg border-b-2 border-gray-200   hidden lg:block">
+                                PM unveils Shiva statue in
+                                Coimbatore on Mahashivratri
+                            </div>
+                            <div
+                                class="mt-1 lg:pb-1 p-1 font-serif text-lg border-b-2 border-gray-200  hidden lg:block">
+                                PM unveils Shiva statue in
+                                Coimbatore on Mahashivratri
+                            </div>
+
+                            <div class="mt-1 font-serif text-lg hidden lg:block">PM unveils Shiva statue in Coimbatore
+                                on Mahashivratri</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="">
+                    <div class="bg-stone-100 -mt-2 lg:mt-0">
+                        <p class="bg-[#fbff22] p-1 inline-block text-base lg:text-xl">QUICK BITES</p>
+                        <div class="p-5 pb-10">
+                            <h1 class="text-xl lg:text-3xl font-semibold text-gray-700 font-serif">Stocks Sell Off, Gold
+                                Rises Ahead of Trump Speech: Markets
+                                Wrap
+                            </h1>
+                            <p class="mt-5 text-base">Global stocks retreated, erasing gains for the week as a glum set
+                                of
+                                European corporate earnings compounded investor nervousness before a major speech from
+                                U.S.
+                                President Donald Trump. Gold extended its rally as the dollar edged lower.</p>
+                            <a href="#" class="text-xl float-right text-blue-700 lg:hidden">></a>
+                            <a href="#" class="text-xl float-right text-blue-700 hidden lg:block">Next ></a>
+                        </div>
+                    </div>
+                    <p class="text-blue-700 text-xl font-medium mt-12 hidden lg:block">Get the Quick Bites delivered to
+                        your inbox daily
+                    </p>
+                    <div class="lg:flex justify-between border-b-2 border-blue-700 mt-10 hidden">
+                        <input class="border-none" type="text" placeholder="Enter your email">
+                        <button class="bg-blue-700 text-white py-2 px-4">Sign up</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="grid grid-cols-4 gap-10 mt-6">
+                <div class="col-span-4 lg:col-span-3 lg:border-b-2 border-gray-200 pb-10">
+                    <div class="flex justify-between items-center">
+                        <button class="bg-gray-300 text-black py-2 px-4">FEATURED</button>
+
+                        <p class="text-base hidden lg:block">Mahashivratri symbolizes a union of divinity with a purpose
+                            of overcoming
+                            darkness and injustice.</p>
+                        <a class="text-blue-700 hidden lg:block" href="#">View all</a>
+                    </div>
+                    <div class="border-b-2 border-gray-200 lg:border-none"></div>
+                    <div class="mt-4 flex gap-4 lg:gap-8 overflow-x-auto pb-10">
+                        <div class="relative flex-shrink-0 lg:w-1/3 w-4/6">
+                            <img src="./assets/images/girl.png" class="" alt="">
+                            <div
+                                class="text-slate-700 absolute -bottom-4  left-3 lg:left-5 bg-white text-sm lg:text-lg font-serif px-3 lg:px-5 font-semibold">
+                                Women Do Like to Compete <br> Against Themselves
+                            </div>
+                        </div>
+                        <div class="relative flex-shrink-0 lg:w-1/3 w-4/6  ">
+                            <img src="./assets/images/giaosu.png" class=" " alt="">
+                            <div
+                                class="text-slate-700 absolute -bottom-4  left-3 lg:left-5 bg-white text-sm lg:text-lg font-serif px-3 lg:px-5 font-semibold">
+                                Women Do Like to Compete <br> Against Themselves
+                            </div>
+                        </div>
+                        <div class="relative flex-shrink-0 lg:w-1/3 w-4/6 ">
+                            <img src="./assets/images/woman.png" class=" " alt="">
+                            <div
+                                class="text-slate-700 absolute -bottom-4  left-3 lg:left-5 bg-white text-sm lg:text-lg font-serif px-3 lg:px-5 font-semibold">
+                                Women Do Like to Compete <br> Against Themselves
+                            </div>
+                        </div>
+                        <div class="relative flex-shrink-0 lg:w-1/3 w-4/6 ">
+                            <img src="./assets/images/woman.png" class=" " alt="">
+                            <div
+                                class="text-slate-700 absolute -bottom-4  left-3 lg:left-5 bg-white text-sm lg:text-lg font-serif px-3 lg:px-5 font-semibold">
+                                Women Do Like to Compete <br> Against Themselves
+                            </div>
+                        </div>
+
+                    </div>
+
+                </div>
+                <div class="relative hidden lg:block">
+                    <div class="bg-cover bg-no-repeat bg-center h-64 w-full rounded-lg mt-6 brightness-50 "
+                        style="background-image: url(./assets/images/tongthong.png) ;">
+                    </div>
+                    <div class="absolute top-10 flex items-center left-5">
+                        <div class="bg-red-500 h-4 w-4 rounded-full"></div>
+                        <div class="ml-3 text-red-500 font-semibold ">Live</div>
+                    </div>
+                    <div
+                        class="absolute left-5 top-28 text-4xl text-slate-100 px-4 py-2 border-2 rounded-full border-white">
+                        <i class="fa-solid fa-play"></i>
+                    </div>
+                    <div class="text-xl top-52 left-5 absolute text-slate-100 font-serif">Watch Modi live from <br> G8
+                        Summit</div>
+
+
+                </div>
+
+            </div>
+
+
+            <div class="lg:grid grid-cols-6 gap-8 -mt-4 lg:mt-6">
+                <div class="col-span-1">
+                    <p class="bg-gray-100 p-1 inline-block text-base lg:text-xl">WORLD NEWS</p>
+                    <div class="border-b-2 border-gray-200 lg:border-none"></div>
+                    <div class="grid grid-rows-2 grid-flow-col gap-4">
+                        <div class="">
+                            <div class="text-xl lg:text-2xl mt-4 font-serif font-semibold text-slate-800">
+                                An Alarmed Base Prods Democrats Into an All-Out War
+                            </div>
+                            <div class="text-base mt-4 text-slate-700">
+                                After the election, Democrats debated whether to confront Mr. Trump or seek compromise,
+                                but
+                                riled-up liberals have pushed party leaders into a fight.
+                            </div>
+                            <div class="border-dashed border-2 border-gray-200 w-1/3 mt-10 hidden lg:block"></div>
+                            <div class="border-2 border-gray-100 mt-3 lg:hidden"></div>
+                        </div>
+                        <div class="">
+                            <div class="text-xl lg:text-2xl font-serif font-semibold text-slate-800">
+                                Transgender Student on the Front Lines of the Rights Battle
+                            </div>
+                            <div class="text-base mt-4 text-slate-700">
+                                Gavin Grimm, 17, whose initials are on a case heading to the Supreme Court, has become
+                                the
+                                new face of the transgender rights movement.
+                            </div>
+                            <div class="border-2 border-gray-100 mt-3 lg:hidden"></div>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="col-span-4">
+                    <div class="lg:grid grid-cols-3 gap-4 lg:border-l-2 border-gray-200">
+                        <div class="col-span-2 lg:border-r-2 border-gray-200 lg:pr-6 lg:pl-6 -mt-6 lg:mt-0">
+                            <div class="lg:grid grid-rows-2 grid-flow-col gap-4">
+                                <div class="">
+                                    <div class="text-xl font-semibold text-slate-800 font-serif">
+                                        Hate Crime Is Feared in Shooting of 2 Indians in Kansas
+                                    </div>
+                                    <div class="flex justify-between mt-5 border-b-2 border-gray-100 pb-5">
+                                        <div class="text-base mr-4 lg:mr-8 text-slate-700">
+                                            India’s government expressed shock after one citizen was killed and another
+                                            wounded in a bar in suburban Kansas. Another wounded in a bar in suburban
+                                            Kansas.
+                                        </div>
+                                        <img class="h-36 w-36 lg:h-36 lg:w-full" src="./assets/images/tongthong.png"
+                                            alt="">
+                                        <!-- <div class="bg-cover bg-no-repeat bg-center h-24 w-full"
+                                            style="background-image: url(./assets/images/tongthong.png) ;"></div> -->
+                                    </div>
+                                    <div class="hidden lg:block">
+                                        <div class="text-xl font-semibold text-slate-800 font-serif mt-4">
+                                            Uber Lawsuit Puts Spotlight on Rush for Driverless Cars
+                                        </div>
+                                        <div class="text-base border-b-2 border-gray-100 pb-4 mt-3 text-slate-700">
+                                            The suit, brought by the autonomous car business Waymo, accuses Uber and a
+                                            star
+                                            engineer, Anthony Levandowski, of planning to steal trade secrets.
+                                        </div>
+                                    </div>
+
+                                </div>
+
+                                <div class="mt-4 lg:mt-0">
+                                    <div class="text-xl font-semibold text-slate-800 font-serif">
+                                        Hate Crime Is Feared in Shooting of 2 Indians in Kansas
+                                    </div>
+                                    <div class="flex justify-between mt-5 lg:border-b-2 border-gray-100 pb-5">
+                                        <div class="text-base mr-8 text-slate-700">
+                                            India’s government expressed shock after one citizen was killed and another
+                                            wounded in a bar in suburban Kansas. Another wounded in a bar in suburban
+                                            Kansas.
+                                        </div>
+                                        <!-- <div class="bg-cover bg-no-repeat bg-center h-36 w-full"
+                                            style="background-image: url(./assets/images/fish.png) ;"></div> -->
+                                        <img class="h-36 w-36 lg:h-36 lg:w-full" src="./assets/images/fish.png" alt="">
+                                    </div>
+                                    <div class="hidden lg:block">
+                                        <div class="text-xl font-semibold text-slate-800 font-serif mt-4">
+                                            Uber Lawsuit Puts Spotlight on Rush for Driverless Cars
+                                        </div>
+                                        <div class="text-base  mt-3 text-slate-700">
+                                            The suit, brought by the autonomous car business Waymo, accuses Uber and a
+                                            star
+                                            engineer, Anthony Levandowski, of planning to steal trade secrets.
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                        <div class="lg:border-r-2 border-gray-200 mt-2 lg:mt-0">
+                            <p class="bg-[#fbff22] p-1 inline-block text-base lg:text-xl">ENTERTAIMENT</p>
+                            <div class="border-b-2 border-gray-200 lg:border-none"></div>
+                            <div class="">
+                                <div class="py-2 lg:py-4 border-b-2 border-gray-100  ">
+                                    <a class="text-base lg:text-base inline-block  font-serif line-clamp-2 lg:line-clamp-none"
+                                        href="#">Lorem ipsum dolor sit amet consectetur adipisicing elit. amet
+                                        consectetur
+                                        adipisicing elit </a>
+
+                                </div>
+                                <div class="py-2 lg:py-4 border-b-2 border-gray-100  ">
+                                    <a class="text-base lg:text-base inline-block  font-serif line-clamp-2 lg:line-clamp-none"
+                                        href="#">Lorem ipsum dolor sit amet consectetur adipisicing elit. amet
+                                        consectetur
+                                        adipisicing elit </a>
+
+                                </div>
+                                <div class="py-2 lg:py-4 border-b-2 border-gray-100  ">
+                                    <a class="text-base lg:text-base inline-block  font-serif line-clamp-2 lg:line-clamp-none"
+                                        href="#">Lorem ipsum dolor sit amet consectetur adipisicing elit. amet
+                                        consectetur
+                                        adipisicing elit </a>
+
+                                </div>
+                                <div class="py-2 lg:py-4 border-b-2 border-gray-100  ">
+                                    <a class="text-base lg:text-base inline-block  font-serif line-clamp-2 lg:line-clamp-none"
+                                        href="#">Lorem ipsum dolor sit amet consectetur adipisicing elit. amet
+                                        consectetur
+                                        adipisicing elit </a>
+
+                                </div>
+                                <div class="py-2 lg:py-4 border-b-2 border-gray-100   hidden lg:block">
+                                    <a class="text-base lg:text-base inline-block  font-serif line-clamp-2 lg:line-clamp-none"
+                                        href="#">Lorem ipsum dolor sit amet consectetur adipisicing elit. amet
+                                        consectetur
+                                        adipisicing elit </a>
+
+                                </div>
+                                <div class="py-2 lg:py-4 border-b-2 border-gray-100   hidden lg:block">
+                                    <a class="text-base lg:text-base inline-block  font-serif line-clamp-2 lg:line-clamp-none"
+                                        href="#">Lorem ipsum dolor sit amet consectetur adipisicing elit. amet
+                                        consectetur
+                                        adipisicing elit </a>
+
+                                </div>
+                                <div class="py-3 lg:py-4 border-b-2 border-gray-100   hidden lg:block">
+                                    <a class="text-lg lg:text-base inline-block  font-serif line-clamp-2 lg:line-clamp-none"
+                                        href="#">Lorem ipsum dolor sit amet consectetur adipisicing elit. amet
+                                        consectetur
+                                        adipisicing elit </a>
+
+                                </div>
+                                <div class="py-3 lg:py-4  hidden lg:block">
+                                    <a class="text-lg lg:text-base inline-block  font-serif line-clamp-2 lg:line-clamp-none"
+                                        href="#">Lorem ipsum dolor sit amet consectetur adipisicing elit. amet
+                                        consectetur
+                                        adipisicing elit </a>
+
+                                </div>
+
+                            </div>
+
+
+                        </div>
+
+                    </div>
+                </div>
+
+                <div class="col-span-1 mt-4 lg:mt-0">
+                    <p class="bg-gray-100 p-1 inline-block lg:text-xl text-base">SPORTS NEWS</p>
+                    <div class="border-b-2 border-gray-200 lg:border-none"></div>
+                    <div class="grid grid-rows-2 grid-flow-col gap-4">
+                        <div class="mt-2 lg:mt-0">
+                            <div class="text-xl lg:text-2xl font-serif font-semibold text-slate-800">
+                                An Alarmed Base Prods Democrats Into an All-Out War
+                            </div>
+                            <div class="text-base mt-4 text-slate-700">
+                                After the election, Democrats debated whether to confront Mr. Trump or seek compromise,
+                                but
+                                riled-up liberals have pushed party leaders into a fight.
+                            </div>
+                            <div class="border-dashed lg:border-2 border-gray-200 w-1/3 mt-10 hidden lg:block"></div>
+                        </div>
+                        <div class="flex justify-between lg:inline-block items-center -mt-10 lg:mt-0">
+                            <!-- <div class=" bg-cover bg-no-repeat h-48 w-full"
+                                            style="background-image: url(./assets/images/football.png) ;">
+                            </div> -->
+                            <div class="">
+
+                                <img src="./assets/images/football.png" class="h-32 lg:h-48 w-96" alt="">
+                            </div>
+                            <div
+                                class="lg:text-2xl text-lg ml-4 mt-4 lg:ml-0 font-serif font-semibold text-slate-800 lg:border-b-2 border-gray-200 pb-4">
+                                Series win in Australia hugely satisfying: Upul Tharanga
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+             <div class="lg:grid grid-cols-6 gap-8 mt-6">
+                <div class="col-span-5 ">
+                    <div class="bg-gray-300 lg:flex justify-between py-2 px-3 hidden">
+                        <div class="text-2xl font-semibold font-serif">Videos</div>
+                        <div class="text-lg text-blue-600">View all Videos</div>
+                    </div>
+                    <div class="">
+                        <div class="lg:grid grid-cols-4 gap-4 lg:border-2 border-gray-200 h-auto">
+
+                            <div class="col-span-3 border-r-2 border-gray-200 mt-5 mb-5">
+                                <ul class="lg:flex mx-auto font-sans text-base justify-between px-5 hidden">
+                                    <li class=" hover:text-blue-700">
+                                        <a href="">World</a>
+                                    </li>
+                                    <li class=" hover:text-blue-700">
+                                        <a href="">Polictics</a>
+                                    </li>
+                                    <li class=" hover:text-blue-700">
+                                        <a href="">Business</a>
+                                    </li>
+                                    <li class=" hover:text-blue-700">
+                                        <a href="">Opinion</a>
+                                    </li>
+                                    <li class=" hover:text-blue-700">
+                                        <a href="">Tech</a>
+                                    </li>
+                                    <li class=" hover:text-blue-700">
+                                        <a href="">Science</a>
+                                    </li>
+                                    <li class=" hover:text-blue-700">
+                                        <a href="">Health</a>
+                                    </li>
+                                    <li class=" hover:text-blue-700">
+                                        <a href="">Sports</a>
+                                    </li>
+                                    <li class=" hover:text-blue-700">
+                                        <a href="">Entertaiment</a>
+                                    </li>
+                                    <li class=" hover:text-blue-700">
+                                        <a href="">Auto</a>
+                                    </li>
+
+                                </ul>
+                                <div class="relative -mx-4 lg:mx-0 -mt-6 lg:mt-0">
+                                    <img class="w-full h-auto lg:p-5 pb-0 " src="./assets/images/rocket.png" alt="">
+                                    <div class="absolute flex left-4 lg:left-14 bottom-6 lg:bottom-16 text-lg lg:text-4xl">
+
+                                        <div class="mt-3 lg:mt-4  text-slate-100 h-8 w-8 lg:w-14 lg:h-14  border-2 rounded-full border-white">
+                                            <i class="fa-solid fa-play text-center lg:ml-4 lg:mt-2 ml-2"></i>
+                                        </div>
+                                        <div class="ml-4 lg:ml-6 font-serif font-semibold text-slate-100">
+
+                                            Isro launches 104 satellites in a single <br> mission to create world record
+                                        </div>
+                                    </div>
+                                    <div class="text-sm lg:text-xl absolute ml-16 lg:ml-36 text-slate-100 bottom-1 lg:bottom-6">2:30 | By Telegraph</div>
+
+                                </div>
+
+                            </div>
+                            <div class="col-span-1 mt-6 overflow-auto h-[39rem] hidden lg:block">
+                                <div class="relative">
+                                    <img class="w-full h-48 brightness-50" src="./assets/images/tongthong.png" alt="">
+                                    <div
+                                    class="absolute left-3 top-3 text-xl text-slate-100 px-4 py-2 border-2 rounded-full border-gray-400">
+                                    <i class="fa-solid fa-play"></i>
+                                </div>
+                                <div class="bottom-3 left-3 absolute text-slate-100 text-sm">2:30 | By Telegraph</div>
+                                </div>
+                                <div class="relative mt-4">
+                                    <img class="w-full h-48 brightness-50" src="./assets/images/tongthong.png" alt="">
+                                    <div
+                                    class="absolute left-3 top-3 text-xl text-slate-100 px-4 py-2 border-2 rounded-full border-gray-400">
+                                    <i class="fa-solid fa-play"></i>
+                                </div>
+                                <div class="bottom-3 left-3 absolute text-slate-100 text-sm">2:30 | By Telegraph</div>
+                                </div>
+                                
+                                <div class="relative mt-4">
+                                    <img class="w-full h-48 brightness-50" src="./assets/images/tongthong.png" alt="">
+                                    <div
+                                    class="absolute left-3 top-3 text-xl text-slate-100 px-4 py-2 border-2 rounded-full border-gray-400">
+                                    <i class="fa-solid fa-play"></i>
+                                </div>
+                                <div class="bottom-3 left-3 absolute text-slate-100 text-sm">2:30 | By Telegraph</div>
+                                </div>
+                                <div class="relative mt-4">
+                                    <img class="w-full h-48 brightness-50" src="./assets/images/tongthong.png" alt="">
+                                    <div
+                                    class="absolute left-3 top-3 text-xl text-slate-100 px-4 py-2 border-2 rounded-full border-gray-400">
+                                    <i class="fa-solid fa-play"></i>
+                                </div>
+                                <div class="bottom-3 left-3 absolute text-slate-100 text-sm">2:30 | By Telegraph</div>
+                                </div>
+
+                            </div>
+                        </div>
+                        <div class="lg:grid grid-cols-5 gap-8 mt-4">
+                            <div class="mt-4 lg:mt-0 border-b-2 border-gray-200 lg:border-none pb-4 lg:pb-0">
+                                <img src="./assets/images/sadgirl.png" class="hidden lg:block" alt="">
+                                <div class="text-xl font-serif font-semibold">
+                                    The Intimate Lens of Ed van der Elsken
+                                </div>
+                                <div class="flex justify-between">
+                                    <div class="text-sm lg:text-lg text-slate-700 mr-5 lg:mr-0">
+                                        Two European museums are presenting retrospectives of a man many consider to be one
+                                        of
+                                        the best street photographers of the 20th century.
+                                    </div>
+                                    <div>
+                                        <img src="./assets/images/sadgirl.png" class="lg:hidden w-96 h-full" alt="">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="mt-4 lg:mt-0 border-b-2 border-gray-200 lg:border-none pb-4 lg:pb-0">
+                                <img src="./assets/images/picture.png" class="hidden lg:block" alt="">
+                                <div class="text-xl font-serif font-semibold">
+                                    The Intimate Lens of Ed van der Elsken
+                                </div>
+                                <div class="flex justify-between">
+                                    <div class="text-sm lg:text-lg text-slate-700 mr-5 lg:mr-0">
+                                        Two European museums are presenting retrospectives of a man many consider to be one
+                                        of
+                                        the best street photographers of the 20th century.
+                                    </div>
+                                    <div>
+                                        <img src="./assets/images/picture.png" class="lg:hidden w-96 h-full" alt="">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="mt-4 lg:mt-0 hidden lg:block">
+                                <img src="./assets/images/cake.png" class="hidden lg:block" alt="">
+                                <div class="text-xl font-serif font-semibold">
+                                    The Intimate Lens of Ed van der Elsken
+                                </div>
+                                <div class="flex justify-between">
+                                    <div class="text-sm lg:text-lg text-slate-700 mr-5 lg:mr-0">
+                                        Two European museums are presenting retrospectives of a man many consider to be one
+                                        of
+                                        the best street photographers of the 20th century.
+                                    </div>
+                                    <div>
+                                        <img src="./assets/images/cake.png" class="lg:hidden w-96 h-full" alt="">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="mt-4 lg:mt-0 hidden lg:block">
+                                <img src="./assets/images/img_13.png" class="hidden lg:block" alt="">
+                                <div class="text-xl font-serif font-semibold">
+                                    The Intimate Lens of Ed van der Elsken
+                                </div>
+                                <div class="flex justify-between">
+                                    <div class="text-sm lg:text-lg text-slate-700 mr-5 lg:mr-0">
+                                        Two European museums are presenting retrospectives of a man many consider to be one
+                                        of
+                                        the best street photographers of the 20th century.
+                                    </div>
+                                    <div>
+                                        <img src="./assets/images/img_13.png" class="lg:hidden w-96 h-full" alt="">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="mt-4 lg:mt-0 hidden lg:block">
+                                <img src="./assets/images/two-fish.png" class="hidden lg:block" alt="">
+                                <div class="text-xl font-serif font-semibold">
+                                    The Intimate Lens of Ed van der Elsken
+                                </div>
+                                <div class="flex justify-between">
+                                    <div class="text-sm lg:text-lg text-slate-700 mr-5 lg:mr-0">
+                                        Two European museums are presenting retrospectives of a man many consider to be one
+                                        of
+                                        the best street photographers of the 20th century.
+                                    </div>
+                                    <div>
+                                        <img src="./assets/images/two-fish.png" class="lg:hidden w-96 h-full" alt="">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="hidden lg:block col-span-1">
+                    <p class="bg-[#fbff22] p-1 inline-block text-xl">MOST POPULAR</p>
+                    <div class="">
+                        <a class="text-lg inline-block  pb-4 mt-4 font-serif" href="#">Lorem ipsum dolor sit amet
+                            consectetur adipisicing elit. amet consectetur
+                            adipisicing elit </a>
+                        <div class="border-dashed border-2 border-dotted border-gray-200 w-1/3 "></div>
+                        <a class="text-lg inline-block  pb-4 mt-4 font-serif" href="#">Lorem ipsum dolor sit amet
+                            consectetur adipisicing elit. amet consectetur
+                            adipisicing elit </a>
+                        <div class="border-dashed border-2 border-dotted border-gray-200 w-1/3 "></div>
+                        <a class="text-lg inline-block  pb-4 mt-4 font-serif" href="#">Lorem ipsum dolor sit amet
+                            consectetur adipisicing elit. amet consectetur
+                            adipisicing elit </a>
+                        <div class="border-dashed border-2 border-dotted border-gray-200 w-1/3 "></div>
+                        <a class="text-lg inline-block  pb-4 mt-4 font-serif" href="#">Lorem ipsum dolor sit amet
+                            consectetur adipisicing elit. amet consectetur
+                            adipisicing elit </a>
+                        <div class="border-dashed border-2 border-dotted border-gray-200 w-1/3 "></div>
+                        <a class="text-lg inline-block  pb-4 mt-4 font-serif" href="#">Lorem ipsum dolor sit amet
+                            consectetur adipisicing elit. amet consectetur
+                            adipisicing elit </a>
+                        <div class="border-dashed border-2 border-dotted border-gray-200 w-1/3 "></div>
+                        <a class="text-lg inline-block  pb-4 mt-4 font-serif" href="#">Lorem ipsum dolor sit amet
+                            consectetur adipisicing elit. amet consectetur
+                            adipisicing elit </a>
+                        <div class="border-dashed border-2 border-dotted border-gray-200 w-1/3 "></div>
+                        <a class="text-lg inline-block  pb-4 mt-4 font-serif" href="#">Lorem ipsum dolor sit amet
+                            consectetur adipisicing elit. amet consectetur
+                            adipisicing elit </a>
+                        <div class="border-dashed border-2 border-dotted border-gray-200 w-1/3 "></div>
+                        <a class="text-lg inline-block  pb-4 mt-4 font-serif" href="#">Lorem ipsum dolor sit amet
+                            consectetur adipisicing elit. amet consectetur
+                            adipisicing elit </a>
+                        <div class="border-dashed border-2 border-dotted border-gray-200 w-1/3 "></div>
+                        <a class="text-lg inline-block  pb-4 mt-4 font-serif" href="#">Lorem ipsum dolor sit amet
+                            consectetur adipisicing elit. amet consectetur
+                            adipisicing elit </a>
+
+                    </div>
+                </div>
+            </div> 
+        </div>
+
+        <div class="footer lg:flex justify-between pt-4 lg:pt-8 pb-4 lg:pb-10">
+            <div class="font-medium text-gray-600 hidden lg:block">© 2017 The Telegraph Company</div>
+            <div class="">
+                <ul class="flex mx-auto font-sans text-xs lg:text-sm justify-between">
+                    <li class="pr-2 text-gray-500 hover:text-blue-700 border-r-2 border-gray-300 ">
+                        <a href=""> Contact Us</a>
+                    </li>
+                    <li class="px-2 text-gray-500 hover:text-blue-700 border-r-2 border-gray-300 ">
+                        <a href="">Work With Us</a>
+                    </li>
+                    <li class="px-2 text-gray-500 hover:text-blue-700 border-r-2 border-gray-300 ">
+                        <a href="">Advertise</a>
+                    </li>
+                    <li class="px-2 text-gray-500 hover:text-blue-700 lg:border-r-2 border-gray-300 ">
+                        <a href="">Your Ad Choices</a>
+                    </li>
+                    <li class="hidden lg:block px-2 text-gray-500 hover:text-blue-700 border-r-2 border-gray-300 ">
+                        <a href=""> Privacy </a>
+                    </li>
+                    <li class="hidden lg:block px-2 text-gray-500 hover:text-blue-700 border-r-2 border-gray-300 ">
+                        <a href="">Terms of Service </a>
+                    </li>
+                    <li class="hidden lg:block px-2 text-gray-500 hover:text-blue-700 border-r-2 border-gray-300 ">
+                        <a href="">Contact Us</a>
+                    </li>
+                    <li class="hidden lg:block px-2 text-gray-500 hover:text-blue-700 border-r-2 border-gray-300 ">
+                        <a href="">Work With Us</a>
+                    </li>
+                    <li class="hidden lg:block px-2 text-gray-500 hover:text-blue-700 border-r-2 border-gray-300 ">
+                        <a href="">Your Ad Choices</a>
+                    </li>
+                    <li class="hidden lg:block px-2 text-gray-500 hover:text-blue-700 border-r-2 border-gray-300 ">
+                        <a href="">Privacy </a>
+                    </li>
+                    <li class="hidden lg:block px-2 text-gray-500 hover:text-blue-700 border-r-2 border-gray-300 ">
+                        <a href="">Terms of Service</a>
+                    </li>
+                    <li class="hidden lg:block px-2 text-gray-500 hover:text-blue-700 border-r-2 border-gray-300 ">
+                        <a href="">Advertise</a>
+                    </li>
+                    <li class="hidden lg:block px-2 text-gray-500 hover:text-blue-700  ">
+                        <a href=""> Subscriptions</a>
+                    </li>
+
+                </ul>
+            </div>
+            <div class="text-xs font-medium text-gray-600 lg:hidden mt-2">© 2017 The Telegraph Company</div>
+        </div> 
+
+        <script>
+            /* When the user clicks on the button, 
+            toggle between hiding and showing the dropdown content */
+            function myFunction() {
+
+                // var menu = document.getElementsByClassName("dropdown-content");
+                var menu = document.getElementById('myDropdown');
+
+                if (menu.classList.contains('hidden')) {
+                    menu.classList.remove('hidden');
+                } else {
+                    menu.classList.add('hidden');
+                }
+                // alert("hehe");
+            }
+
+
+        </script>
+</body>
+
+</html>
